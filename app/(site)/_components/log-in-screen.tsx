@@ -6,7 +6,7 @@ export const LogInScreen = () => {
             <img src="./bg.jpg" className="h-full w-full absolute blur-sm" />
             <div className="flex flex-col absolute gap-5 z-50">
                 <div className="text-4xl text-white">Welcome! User</div>
-                <Button>Sign In</Button>
+                <Button variant={"cosmosBranded"}>Sign In</Button>
             </div>
         </div>
     );
